@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Food Fest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body >
+    <div class="container">
+      <div class="navbar">
+        <div class="menu">
+          <h3 class="logo"><span>Food Festival Qurum</span></h3>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="main">
+          <header>
+            <div class="overlay">
+              <div class="inner">
+                <h2 class="title">Welcome to Food Festival Qurum</h2>
+                <p>
+                  Join us on 25 June 2021 in an exciting turn of events where we have stalls from all around
+                  Oman! 
+              
+                </p>
+                <button class="btn">Learn More</button>
+              </div>
+            </div>
+          </header>
+        </div>
+
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li>
+            <a href="index.html" style="--i: 0.05s;">Home</a>
+          </li>
+          <li>
+            <a href="register.html" style="--i: 0.1s;">Registrations</a>
+          </li>
+          <li>
+            <a href="review.html" style="--i: 0.15s;">Exhibitors</a>
+          </li>
+          <li>
+            <a href="social.html" style="--i: 0.2s;">Social Media</a>
+          </li>
+          <li>
+            <a href="contact.html" style="--i: 0.2s;">Contact US</a>
+          </li>
+          <li>
+            <a href="page6.html" style="--i: 0.2s;">Map</a>
+          </li>
+          <li>
+            <a href="page3.html" style="--i: 0.2s;">Past Fests</a>
+          </li>
+          <li>
+            <a href="page1.html" style="--i: 0.2s;">Schedule of Festival</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <script >
+      const hamburger_menu = document.querySelector(".hamburger-menu");
+const container = document.querySelector(".container");
+
+hamburger_menu.addEventListener("click", () => {
+  container.classList.toggle("active");
+});
+
+    </script>
+
+    
+  </body>
+</html>
